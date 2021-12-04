@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { DynamicCompsModel } from 'ishi-dynamic-components-shell';
-import { Agency, BasicLanding, Portifolio } from 'ishi-ui';
+import { DynamicCompsModel } from '@saikou/dynamic-components-shell';
+import { Agency, BasicLanding, Portifolio } from '@saikou/ui';
 import { DropWatcherService } from './drop-watcher.service';
 
 @Component({
