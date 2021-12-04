@@ -1,0 +1,36 @@
+.manage-page {
+  &__header {
+  }
+
+  &__title {
+  }
+
+  &__body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__drop,
+  &__drag {
+    flex: 0 0 49%;
+    min-height: 20vh;
+    border: 1px solid lightgrey;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    box-sizing: border-box;
+
+    @media only screen and (max-width: 425px) {
+      flex: 0 0 100%;
+      &:first-of-type {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  &__draggable {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+}

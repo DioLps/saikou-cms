@@ -1,0 +1,31 @@
+<header class="header">
+  <div class="header__breadcrumb">
+    <!-- <a href="/dashboard/manage-page" class="header__link" title="Home">
+      <mat-icon class="header__icon">home</mat-icon>
+
+    </a>
+    <a href="/" class="header__link" title="Dashboard">
+      <mat-icon class="header__icon">dashboard</mat-icon>
+    </a> -->
+  </div>
+
+  <div class="header__account-manager">
+    <a
+      class="header__link"
+      title="Gerenciar páginas"
+      [routerLink]="['/dashboard/manage-page/skeleton']"
+    >
+      <mat-icon class="header__icon">pages</mat-icon>
+    </a>
+    <a
+      class="header__link"
+      title="Páginas dinâmicas"
+      [routerLink]="['/dashboard/manage-page/list']"
+    >
+      <mat-icon class="header__icon">list</mat-icon>
+    </a>
+    <a [routerLink]="['/']" class="header__link" title="Logout">
+      <mat-icon class="header__icon">power_settings_new</mat-icon>
+    </a>
+  </div>
+</header>

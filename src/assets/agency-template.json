@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Agency Header",
+    "id": "agency-header",
+    "data": {
+      "imgSrc": "assets/showcase_cat.svg",
+      "imgAlt": "Agency Logo",
+      "links": [
+        {
+          "label": "home",
+          "url": null
+        },
+        {
+          "label": "products",
+          "url": null
+        },
+        {
+          "label": "about us",
+          "url": null
+        },
+        {
+          "label": "contact us",
+          "url": null
+        }
+      ]
+    }
+  },
+  {
+    "name": "Agency Banner",
+    "id": "agency-banner",
+    "data": {
+      "imgSrc": "assets/showcase_cat.svg",
+      "imgAlt": "Agency Logo",
+      "links": [
+        {
+          "label": "home",
+          "url": null
+        },
+        {
+          "label": "products",
+          "url": null
+        },
+        {
+          "label": "about us",
+          "url": null
+        },
+        {
+          "label": "contact us",
+          "url": null
+        }
+      ]
+    }
+  },
+  {
+    "name": "Agency Cards Showcase",
+    "id": "agency-cards-showcase",
+    "data": {
+      "imgSrc": "assets/showcase_cat.svg",
+      "imgAlt": "Agency Logo",
+      "links": [
+        {
+          "label": "home",
+          "url": null
+        },
+        {
+          "label": "products",
+          "url": null
+        },
+        {
+          "label": "about us",
+          "url": null
+        },
+        {
+          "label": "contact us",
+          "url": null
+        }
+      ]
+    }
+  },
+  {
+    "name": "Agency Showcase with Banner",
+    "id": "agency-showcase-with-banner",
+    "data": {
+      "imgSrc": "assets/showcase_cat.svg",
+      "imgAlt": "Agency Logo",
+      "links": [
+        {
+          "label": "home",
+          "url": null
+        },
+        {
+          "label": "products",
+          "url": null
+        },
+        {
+          "label": "about us",
+          "url": null
+        },
+        {
+          "label": "contact us",
+          "url": null
+        }
+      ]
+    }
+  },
+  {
+    "name": "Agency Footer",
+    "id": "agency-footer",
+    "data": {
+      "imgSrc": "assets/showcase_cat.svg",
+      "imgAlt": "Agency Logo",
+      "links": [
+        {
+          "label": "home",
+          "url": null
+        },
+        {
+          "label": "products",
+          "url": null
+        },
+        {
+          "label": "about us",
+          "url": null
+        },
+        {
+          "label": "contact us",
+          "url": null
+        }
+      ]
+    }
+  }
+]

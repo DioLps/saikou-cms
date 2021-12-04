@@ -1,0 +1,53 @@
+<section class="manage-page">
+  <div class="manage-page__header">
+    <h1 class="manage-page__title">Gerenciar páginas</h1>
+  </div>
+  <div class="manage-page__body">
+    <div
+      class="manage-page__drop"
+      cdkDropList
+      #registeredComponentList="cdkDropList"
+      [cdkDropListData]="pageComponents"
+      [cdkDropListConnectedTo]="[componentList]"
+      (cdkDropListDropped)="drop($event)"
+    >
+      <h3>Nova página</h3>
+      <mat-card
+        class="manage-page__draggable"
+        *ngFor="let item of pageComponents; let pageComponentsIndex = index"
+        cdkDrag
+      >
+        <span>
+          {{ item.name }}
+        </span>
+        <button
+          style="float: right"
+          mat-icon-button
+          (click)="removeFromPageComponents(pageComponentsIndex)"
+        >
+          <mat-icon> close </mat-icon>
+        </button>
+      </mat-card>
+      <small *ngIf="pageComponents.length === 0">
+        Arraste os componentes para cadastrar uma nova página
+      </small>
+    </div>
+    <div
+      class="manage-page__drag"
+      cdkDropList
+      #componentList="cdkDropList"
+      [cdkDropListData]="components"
+      [cdkDropListConnectedTo]="[registeredComponentList]"
+      (cdkDropListDropped)="drop($event)"
+    >
+      <h3>Components</h3>
+      <mat-card
+        class="manage-page__draggable"
+        *ngFor="let item of components"
+        cdkDrag
+      >
+        {{ item.name }}
+      </mat-card>
+    </div>
+  </div>
+</section>

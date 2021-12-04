@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Portfólio Header",
+    "id": "portifolio-header",
+    "data": {
+      "imgSrc": "assets/showcase_cat.svg",
+      "imgAlt": "Portfólio Logo",
+      "links": [
+        {
+          "label": "home",
+          "url": null
+        },
+        {
+          "label": "about me",
+          "url": null
+        },
+        {
+          "label": "contact us",
+          "url": null
+        }
+      ]
+    }
+  }
+]

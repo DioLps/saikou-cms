@@ -1,0 +1,13 @@
+<section class="dashboard">
+  <app-header class="dashboard__header"></app-header>
+  <router-outlet></router-outlet>
+
+  <section class="dashboard__preview" *ngIf="dynamicComponentsRef.length > 0">
+    <h3 class="dashboard__title">Preview:</h3>
+
+    <lib-dynamic-comps
+      *ngFor="let comp of dynamicComponentsRef"
+      [dynamicComponent]="comp"
+    ></lib-dynamic-comps>
+  </section>
+</section>

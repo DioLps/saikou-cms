@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+
+  &__breadcrumb {
+    display: flex;
+    gap: 1rem;
+  }
+
+  &__link {
+    // display: flex;
+    // align-items: center;
+    // jus
+    color: white;
+    text-decoration: none;
+  }
+
+  // &__icon {
+  //   margin-right: 0.5rem;
+  // }
+
+  &__account-manager {
+    display: flex;
+    gap: 1rem;
+  }
+}

@@ -1,0 +1,15 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+  &__card{
+    min-width: 35vw;
+  }
+
+  &__form{
+    display: flex;
+    flex-direction: column;
+  }
+}
