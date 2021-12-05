@@ -19,7 +19,7 @@ export class LoginComponent {
     private snack: MatSnackBar
   ) {
     this.form = new FormGroup({
-      username: new FormControl(),
+      email: new FormControl(),
       password: new FormControl(),
     });
   }
@@ -28,7 +28,7 @@ export class LoginComponent {
     if (this.form.valid) {
       this.serv.login(this.form.value).subscribe((logged) => {
         if (logged) {
-          this.router.navigateByUrl('/dashboard/manage-page/list');
+          this.router.navigateByUrl('/dashboard/manage-pages');
         } else {
           this.snack.open(
             'Verifique suas credenciais e tente novamente!',

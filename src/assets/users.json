@@ -1,14 +1,71 @@
 [
   {
-    "username": "rodrigolopesrln@gmail.com",
-    "password": "654321"
+    "id": 0,
+    "email": "rodrigolopesrln@gmail.com",
+    "password": "654321",
+    "name": "Rodrigo Lopes",
+    "logo": "",
+    "clients": [
+      {
+        "id": 0,
+        "name": "Vivest",
+        "logo": "",
+        "pages": [],
+        "users": [
+          {
+            "id": 0,
+            "email": "rodrigolopesrln@gmail.com",
+            "password": "654321",
+            "isActive": true
+          }
+        ]
+      }
+    ]
   },
   {
-    "username": "rzrsantos@gmail.com",
-    "password": "654321"
+    "id": 1,
+    "email": "rzrsantos@gmail.com",
+    "password": "654321",
+    "name": "Rafael Zulianelli",
+    "logo": "",
+    "clients": [
+      {
+        "id": 0,
+        "name": "Vivest",
+        "logo": "",
+        "pages": [],
+        "users": [
+          {
+            "id": 0,
+            "email": "rodrigolopesrln@gmail.com",
+            "password": "654321",
+            "isActive": true
+          }
+        ]
+      }
+    ]
   },
   {
-    "username": "rafael211295@gmail.com",
-    "password": "654321"
+    "id": 0,
+    "email": "rafael211295@gmail.com",
+    "password": "654321",
+    "name": "Rafael Pastori",
+    "logo": "",
+    "clients": [
+      {
+        "id": 0,
+        "name": "Abraap",
+        "logo": "",
+        "pages": [],
+        "users": [
+          {
+            "id": 0,
+            "email": "rodrigolopesrln@gmail.com",
+            "password": "654321",
+            "isActive": true
+          }
+        ]
+      }
+    ]
   }
 ]

@@ -17,10 +17,17 @@ import { HttpClientModule } from '@angular/common/http';
     CommonModule,
     RouterModule.forChild([
       {
-        path: 'list',
+        path: 'manage-pages',
         loadChildren: () =>
           import('./list-dynamic-page/list-dynamic-page.module').then(
             (m) => m.ListDynamicPageModule
+          ),
+      },
+      {
+        path: 'manage-clients',
+        loadChildren: () =>
+          import('./list-dynamic-client/list-dynamic-client.module').then(
+            (m) => m.ListDynamicClientModule
           ),
       },
       {

@@ -1,0 +1,16 @@
+.list-dynamic-client {
+  &__header {
+  }
+
+  &__title {
+  }
+
+  &__body {
+    min-height: 20vh;
+    box-sizing: border-box;
+    border: 1px solid lightgrey;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+}

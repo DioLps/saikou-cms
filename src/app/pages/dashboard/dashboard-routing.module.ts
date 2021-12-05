@@ -8,13 +8,13 @@ const routes: Routes = [
     component: DashboardComponent,
     children: [
       {
-        path: 'manage-page',
+        path: '',
         loadChildren: () =>
           import('./manage-page').then((m) => m.ManagePageModule),
       },
       {
         path: '**',
-        redirectTo: 'manage-page/list',
+        redirectTo: './',
       },
     ],
   },

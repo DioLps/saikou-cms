@@ -1,18 +1,19 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
-import { ListDynamicPageComponent } from './list-dynamic-page.component';
+
+import { ListDynamicClientComponent } from './list-dynamic-client.component';
 
 @NgModule({
-  declarations: [ListDynamicPageComponent],
+  declarations: [ListDynamicClientComponent],
   imports: [
     CommonModule,
     RouterModule.forChild([
       {
         path: '',
-        component: ListDynamicPageComponent,
+        component: ListDynamicClientComponent,
       },
     ]),
   ],
 })
-export class ListDynamicPageModule {}
+export class ListDynamicClientModule {}

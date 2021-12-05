@@ -13,16 +13,23 @@
     <a
       class="header__link"
       title="Gerenciar páginas"
-      [routerLink]="['/dashboard/manage-page/skeleton']"
+      [routerLink]="['/dashboard/skeleton']"
     >
       <mat-icon class="header__icon">pages</mat-icon>
     </a>
     <a
       class="header__link"
       title="Páginas dinâmicas"
-      [routerLink]="['/dashboard/manage-page/list']"
+      [routerLink]="['/dashboard/manage-pages']"
     >
       <mat-icon class="header__icon">list</mat-icon>
+    </a>
+    <a
+      class="header__link"
+      title="Páginas dinâmicas"
+      [routerLink]="['/dashboard/manage-clients']"
+    >
+      <mat-icon class="header__icon">groups</mat-icon>
     </a>
     <a [routerLink]="['/']" class="header__link" title="Logout">
       <mat-icon class="header__icon">power_settings_new</mat-icon>
